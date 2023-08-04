@@ -8,7 +8,7 @@
 - Functions are divided into 7 ‘Layers’. 
 - These layers work together to make the network work
 
-![[OSI Model.png]]
+![OSI Model](OSI%20Model.png)
 
 ###### Application Layer
 - This layer is closest to the end user. 
@@ -19,18 +19,18 @@
 	- Identifying communication partners 
 	- Synchronizing communication
  
- ![[application layer.png]]
+ ![application layer](application%20layer.png)
 
-- Both the Encapsulation and De-encapsulation processes are the example of adjecent layer interaction  (interaction between the different layer of OSI model)
+- Both the Encapsulation and De-encapsulation processes are the example of adjacent layer interaction  (interaction between the different layer of OSI model)
 - The communication between the application layers of the two different systems is called same layer interaction. 
-- This same layer interaction between application layers is what allows the apllication layer to perform its functions of identifying communication parterns, synchronizing communications, etc
+- This same layer interaction between application layers is what allows the application layer to perform its functions of identifying communication patterns, synchronizing communications, etc
 
 ###### Presentation Layer
 - Data in the application layer is in ‘application format’. 
 - It needs to be ‘translated’ to a different format to be sent over the network. 
 - The Presentation Layer’s job is to translate between application and network formats. 
 - For example, encryption of data as it is sent, and decryption of data as it is received. 
-- Also translates between different ApplicationLayer formats to ensure that the data is in a format the recieving host can understand
+- Also translates between different Application Layer formats to ensure that the data is in a format the receiving host can understand
 
 ###### Session Layer
 - Controls dialogues (sessions) between communicating hosts. 
@@ -69,9 +69,9 @@
 - Digital bits are converted into electrical (for wired connections) or radio (for wireless connections) signals. 
 - All of the information in Day 2’s video (cables, pin layouts, etc.) is related to the Physical Layer.
 
-![[encapsulation and de-encapsulation.png]]
+![encapsulation and de-encapsulation](encapsulation%20and%20de-encapsulation.png)
 
-![[PDUs.png]]
+![PDUs](PDUs.png)
 
 ### **TCP/IP Suite**
 - Conceptual model and set of communications protocols used in the Internet and other networks. 
@@ -82,6 +82,6 @@
 
 `NOTE: The OSI model still influences how network engineers think and talk about networks.
 
-![[OSI vs TCP_IP.png]]
+![OSI vs TCP_IP](OSI%20vs%20TCP_IP.png)
 
-![[data flow.png]]
+![data flow](data%20flow.png)

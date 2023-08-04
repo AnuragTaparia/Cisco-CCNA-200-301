@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06_Routing Fundamentals & Static Routing/Routing Fundamentals.md",
+                "file": "01_Network devices/Network Devices.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "06_Routing Fundamentals & Static Routing/Routing Fundamentals.md",
+                "file": "01_Network devices/Network Devices.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "06_Routing Fundamentals & Static Routing/Routing Fundamentals.md",
+                "file": "01_Network devices/Network Devices.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "06_Routing Fundamentals & Static Routing/Routing Fundamentals.md"
+                "file": "01_Network devices/Network Devices.md"
               }
             }
           }
@@ -161,6 +161,10 @@
   },
   "active": "a77486073cfe99dc",
   "lastOpenFiles": [
+    "02_Interfaces and cables/Interface and cables.md",
+    "03_OSI and TCP_IP Suite/OSI Modle and TCP-IP.md",
+    "04_Ethernet LAN Switching (refer ppt)/Ethernet LAN Switching.md",
+    "05_IPv4 Addressing/IPv4 Addressing.md",
     "06_Routing Fundamentals & Static Routing/Routing Fundamentals.md",
     "07_Subnetting/Subnetting.md",
     "08_VLAN/VLAN.md",
@@ -168,7 +172,6 @@
     "07_Subnetting/Free CCNA _ Subnetting (Part 3 - VLSM) _ Day 15 _ CCNA 200-301 Complete Course.mp4",
     "07_Subnetting/CIDR Notation with subnet mask.png",
     "07_Subnetting/Free CCNA _ Subnetting (Part 1) _ Day 13 _ CCNA 200-301 Complete Course.mp4",
-    "05_IPv4 Addressing/IPv4 Addressing.md",
     "07_Subnetting/Free CCNA _ Subnetting (Part 2) _ Day 14 _ CCNA 200-301 Complete Course.mp4",
     "07_Subnetting",
     "06_Routing Fundamentals & Static Routing/default route configuration.png",
@@ -182,11 +185,9 @@
     "06_Routing Fundamentals & Static Routing/R1 route table.png",
     "06_Routing Fundamentals & Static Routing",
     "05",
-    "03_OSI and TCP_IP Suite/OSI Modle and TCP-IP.md",
     "05_IPv4 Addressing",
     "04_Ethernet LAN Switching/Ethernet LAN Switching.md",
     "04_Ethernet LAN Switching",
-    "02_Interfaces and cables/Interface and cables.md",
     "03_OSI and TCP_IP Suite",
     "01_Network devices/Network Devices.md"
   ]

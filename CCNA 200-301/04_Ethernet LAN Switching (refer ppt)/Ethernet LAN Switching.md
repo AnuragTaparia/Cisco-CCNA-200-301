@@ -1,5 +1,5 @@
 
-![[Ethernet Frame.png]]
+![Ethernet Frame](Ethernet%20Frame.png)
 
 - **Preamble**
 	- Length: 7 bytes (56 bits)

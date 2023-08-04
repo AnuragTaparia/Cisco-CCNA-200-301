@@ -14,7 +14,7 @@
 	- are used to provide connectivity between LANs. 
 	- are therefore used to send data over the Internet
 
-![[switch and router connectivity.png]]
+![switch and router connectivity](switch%20and%20router%20connectivity.png)
 
 
 - **Firewalls**: 
@@ -26,15 +26,15 @@ Firewalls should be configured with security rules to determine which traffic sh
 
 If you configured the rules properly , if PC in the new york branch tries to access server in tokyo, the firewall should permit the traffic through
 
-![[firewall 1.png]]
+![firewall 1](firewall%201.png)
 
 the return traffic from server 1 to PC 1 should be allowed as well.
 
-![[firewall 2.png]]
+![firewall 2](firewall%202.png)
 
 However, if the attacker tries to access anything inside of our networks, the firewall should block it
 
-![[firewall 3.png]]
+![firewall 3](firewall%203.png)
 
 - The above firewall is a **network firewall**, they are hardware devices that filter traffic between networks.
 - There are **host based firewall** which are software applications that filter traffic entering and exiting a host machine, like PC.
