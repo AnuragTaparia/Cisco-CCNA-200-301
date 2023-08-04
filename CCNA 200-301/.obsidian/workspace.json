@@ -1,0 +1,193 @@
+{
+  "main": {
+    "id": "d78140b91436e50c",
+    "type": "split",
+    "children": [
+      {
+        "id": "02e37c8a53af98d2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "11413e45b84bb1ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "06_Routing Fundamentals & Static Routing/Routing Fundamentals.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a77486073cfe99dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "VLAN.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1406d18fc703f24e",
+    "type": "split",
+    "children": [
+      {
+        "id": "841003f03920c7d6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "901e20fbd9c73161",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTimeReverse"
+              }
+            }
+          },
+          {
+            "id": "ddb7734e25112a36",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a46ffc8c0f77a830",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2bbe2d1569749f1d",
+    "type": "split",
+    "children": [
+      {
+        "id": "bf93dcdfca4a6a78",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "adcc0ee8605a9e12",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "VLAN.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "38beb20271fb1caf",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "VLAN.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ffabb435dab8e3b4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "70e86483022ca72e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "VLAN.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "a77486073cfe99dc",
+  "lastOpenFiles": [
+    "06_Routing Fundamentals & Static Routing/Routing Fundamentals.md",
+    "VLAN.md",
+    "08_VLAN",
+    "07_Subnetting/Subnetting.md",
+    "07_Subnetting/Free CCNA _ Subnetting (Part 3 - VLSM) _ Day 15 _ CCNA 200-301 Complete Course.mp4",
+    "07_Subnetting/CIDR Notation with subnet mask.png",
+    "07_Subnetting/Free CCNA _ Subnetting (Part 1) _ Day 13 _ CCNA 200-301 Complete Course.mp4",
+    "05_IPv4 Addressing/IPv4 Addressing.md",
+    "07_Subnetting/Free CCNA _ Subnetting (Part 2) _ Day 14 _ CCNA 200-301 Complete Course.mp4",
+    "07_Subnetting",
+    "06_Routing Fundamentals & Static Routing/default route configuration.png",
+    "06_Routing Fundamentals & Static Routing/default route.png",
+    "06_Routing Fundamentals & Static Routing/default route def.png",
+    "06_Routing Fundamentals & Static Routing/Static Route Configuration with exit-interface.png",
+    "06_Routing Fundamentals & Static Routing/Static Route Configuration (R4).png",
+    "06_Routing Fundamentals & Static Routing/Static Route Configuration (R3).png",
+    "06_Routing Fundamentals & Static Routing/Static Route Configuration (R1).png",
+    "06_Routing Fundamentals & Static Routing/static routes.png",
+    "06_Routing Fundamentals & Static Routing/R1 route table.png",
+    "06_Routing Fundamentals & Static Routing",
+    "05",
+    "03_OSI and TCP_IP Suite/OSI Modle and TCP-IP.md",
+    "05_IPv4 Addressing",
+    "04_Ethernet LAN Switching/Ethernet LAN Switching.md",
+    "04_Ethernet LAN Switching",
+    "02_Interfaces and cables/Interface and cables.md",
+    "03_OSI and TCP_IP Suite",
+    "01_Network devices/Network Devices.md"
+  ]
+}
