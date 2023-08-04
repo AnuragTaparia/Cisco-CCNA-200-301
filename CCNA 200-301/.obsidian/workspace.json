@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "VLAN.md",
+                "file": "08_VLAN/VLAN.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "VLAN.md",
+                "file": "08_VLAN/VLAN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "VLAN.md",
+                "file": "08_VLAN/VLAN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "VLAN.md"
+                "file": "08_VLAN/VLAN.md"
               }
             }
           }
@@ -159,10 +159,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a77486073cfe99dc",
+  "active": "901e20fbd9c73161",
   "lastOpenFiles": [
     "06_Routing Fundamentals & Static Routing/Routing Fundamentals.md",
-    "VLAN.md",
+    "08_VLAN/VLAN.md",
     "08_VLAN",
     "07_Subnetting/Subnetting.md",
     "07_Subnetting/Free CCNA _ Subnetting (Part 3 - VLSM) _ Day 15 _ CCNA 200-301 Complete Course.mp4",
