@@ -12,7 +12,7 @@
 1) **Dynamic Routing**: Routers use dynamic routing protocols (ie. OSPF) to share routing information with each other automatically and build their routing tables. 
 2) **Static Routing**: A network engineer/admin manually configures routes on the router.
 
-![[example.png]]
+p![[example.png]]
 
 ![[automatic routes.png]]
 

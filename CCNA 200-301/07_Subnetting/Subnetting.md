@@ -11,8 +11,7 @@ follow the ppt and video for better understanding
 - 2^x = number of subnets
 	(x = number of ‘borrowed’ bits)
 
-![[CIDR Notation with subnet mask.png]]
-
+![CIDR Notation with subnet mask](CIDR%20Notation%20with%20subnet%20mask.png)
 
 #### VLSM - Steps
 1) Assign the largest subnet at the start of the address space.
