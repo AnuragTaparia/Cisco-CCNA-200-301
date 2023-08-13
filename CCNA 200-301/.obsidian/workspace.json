@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "02e37c8a53af98d2",
+        "id": "7286739612da8dbd",
         "type": "tabs",
         "children": [
           {
-            "id": "11413e45b84bb1ff",
+            "id": "f8469bfb87efc9bf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06_Routing Fundamentals & Static Routing/Routing Fundamentals.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a77486073cfe99dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "01_Network devices/Network Devices.md",
+                "file": "08_VLAN/VLAN.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01_Network devices/Network Devices.md",
+                "file": "08_VLAN/VLAN.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01_Network devices/Network Devices.md",
+                "file": "08_VLAN/VLAN.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01_Network devices/Network Devices.md"
+                "file": "08_VLAN/VLAN.md"
               }
             }
           }
@@ -159,36 +146,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a77486073cfe99dc",
+  "active": "f8469bfb87efc9bf",
   "lastOpenFiles": [
-    "02_Interfaces and cables/Interface and cables.md",
+    "08_VLAN/When native VLAN mismatch and frame is also tagged with one of the VLAN in native VLAN.png",
+    "08_VLAN/VLAN.md",
+    "08_VLAN/when native VLAN not match.png",
+    "08_VLAN/when native VLAN matches.png",
+    "Pasted image 20230813125137.png",
+    "08_VLAN/trunk port_2.png",
+    "08_VLAN/802.1 Q tag format.png",
+    "08_VLAN/packet.png",
+    "08_VLAN/trunk port.png",
+    "08_VLAN/router performing inter-VLAN.png",
+    "08_VLAN/vlan.png",
+    "CCNA 200-301 Study notes v1.3.pdf",
+    "Unconfirmed 354918.crdownload",
+    "07_Subnetting/Subnetting.md",
+    "06_Routing Fundamentals & Static Routing/Routing Fundamentals.md",
     "03_OSI and TCP_IP Suite/OSI Modle and TCP-IP.md",
     "04_Ethernet LAN Switching (refer ppt)/Ethernet LAN Switching.md",
+    "02_Interfaces and cables/Interface and cables.md",
+    "01_Network devices/Network Devices.md",
+    "07_Subnetting/Subnet Cheat Sheet.pdf",
+    "07_Subnetting/ipv6_cheat_sheet.webp.crdownload",
+    "07_Subnetting/Unconfirmed 415809.crdownload",
     "05_IPv4 Addressing/IPv4 Addressing.md",
-    "06_Routing Fundamentals & Static Routing/Routing Fundamentals.md",
-    "07_Subnetting/Subnetting.md",
-    "08_VLAN/VLAN.md",
     "08_VLAN",
     "07_Subnetting/Free CCNA _ Subnetting (Part 3 - VLSM) _ Day 15 _ CCNA 200-301 Complete Course.mp4",
-    "07_Subnetting/CIDR Notation with subnet mask.png",
     "07_Subnetting/Free CCNA _ Subnetting (Part 1) _ Day 13 _ CCNA 200-301 Complete Course.mp4",
     "07_Subnetting/Free CCNA _ Subnetting (Part 2) _ Day 14 _ CCNA 200-301 Complete Course.mp4",
     "07_Subnetting",
-    "06_Routing Fundamentals & Static Routing/default route configuration.png",
-    "06_Routing Fundamentals & Static Routing/default route.png",
-    "06_Routing Fundamentals & Static Routing/default route def.png",
-    "06_Routing Fundamentals & Static Routing/Static Route Configuration with exit-interface.png",
-    "06_Routing Fundamentals & Static Routing/Static Route Configuration (R4).png",
-    "06_Routing Fundamentals & Static Routing/Static Route Configuration (R3).png",
-    "06_Routing Fundamentals & Static Routing/Static Route Configuration (R1).png",
-    "06_Routing Fundamentals & Static Routing/static routes.png",
-    "06_Routing Fundamentals & Static Routing/R1 route table.png",
-    "06_Routing Fundamentals & Static Routing",
-    "05",
-    "05_IPv4 Addressing",
-    "04_Ethernet LAN Switching/Ethernet LAN Switching.md",
-    "04_Ethernet LAN Switching",
-    "03_OSI and TCP_IP Suite",
-    "01_Network devices/Network Devices.md"
+    "04_Ethernet LAN Switching/Ethernet LAN Switching.md"
   ]
 }

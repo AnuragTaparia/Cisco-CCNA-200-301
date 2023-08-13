@@ -1,7 +1,7 @@
 
 - **Network models** categorize and provide a structure for networking protocols and standards.
-- **Protocols** is a set of rules drfining how network devices and software should work.
-### **OSI Modle**
+- **Protocols** is a set of rules defining how network devices and software should work.
+### **OSI Model**
 - ‘Open Systems Interconnection’ model 
 - A conceptual model that categorizes and standardizes the different functions in a network.
 - Created by the ‘International Organization for Standardization’ (ISO). 
@@ -12,9 +12,9 @@
 
 ###### Application Layer
 - This layer is closest to the end user. 
-- Interacts with software applications, for example your web browser (Brave, Firefox, Chrome, etc)
+- Interacts with software applications, for example your web browser (Brave, Firefox, Chrome, etc.)
 - HTTP and HTTPS are Layer 7 protocols (https://www.cisco.com)
-- Keep in mind that Layer 7 doesn;t include the applicaation itself like firefox or chrome, but rather the protocols that interact with the application like HTTP or HTTPS
+- Keep in mind that Layer 7 doesn't include the application itself like Firefox or chrome, but rather the protocols that interact with the application like HTTP or HTTPS
 - Functions of Layer 7 include: 
 	- Identifying communication partners 
 	- Synchronizing communication
