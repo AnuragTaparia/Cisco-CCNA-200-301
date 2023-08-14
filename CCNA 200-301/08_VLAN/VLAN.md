@@ -42,6 +42,7 @@ VLAN (part 1)
 - VLANs 1,1002-1005 exist by default and cannot be deleted.
 - An **access port** is a switchport which belongs to a single VLAN, and usually connects to end hosts like PCs. This type of interface is configured on switch ports that are connected to end devices such as workstations, printers, or access point
 - Switchports which carry multiple VLANs are called **trunk ports**.
+- By default all VLAN are allowed on trunk port
 
 ---
 ---
@@ -132,3 +133,12 @@ VLAN (part 2)
 - When native VLAN mismatch and frame is also tagged with one of the VLAN in native VLAN
 
 ![](When%20native%20VLAN%20mismatch%20and%20frame%20is%20also%20tagged%20with%20one%20of%20the%20VLAN%20in%20native%20VLAN.png)
+
+#### Router on a Stick (ROAS)
+- ROAS is used to route between multiple VLANs using a single interface on the router and switch.
+- The switch interface is configured as a regular trunk.
+- The router interface is configured using subinterfaces. You configure the VLAN tag and IP address on each subinterface.
+- The router will behave as if frames arriving with a certain VLAN tag have arrived on the subinterface configured with that VLAN tag.
+- The router will tag frames sent out of each subinterface with the VLAN tag configured on the subinterface.
+
+![](ROAS.png)

@@ -148,8 +148,9 @@
   },
   "active": "f8469bfb87efc9bf",
   "lastOpenFiles": [
-    "08_VLAN/When native VLAN mismatch and frame is also tagged with one of the VLAN in native VLAN.png",
+    "08_VLAN/ROAS.png",
     "08_VLAN/VLAN.md",
+    "08_VLAN/When native VLAN mismatch and frame is also tagged with one of the VLAN in native VLAN.png",
     "08_VLAN/when native VLAN not match.png",
     "08_VLAN/when native VLAN matches.png",
     "Pasted image 20230813125137.png",
@@ -158,7 +159,6 @@
     "08_VLAN/packet.png",
     "08_VLAN/trunk port.png",
     "08_VLAN/router performing inter-VLAN.png",
-    "08_VLAN/vlan.png",
     "CCNA 200-301 Study notes v1.3.pdf",
     "Unconfirmed 354918.crdownload",
     "07_Subnetting/Subnetting.md",
