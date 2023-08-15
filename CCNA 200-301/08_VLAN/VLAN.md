@@ -142,3 +142,61 @@ VLAN (part 2)
 - The router will tag frames sent out of each subinterface with the VLAN tag configured on the subinterface.
 
 ![](ROAS.png)
+
+
+---
+---
+
+VLAN (part 3)
+
+- The native VLAN feature does have one benefit because frames in the native VLAN aren't tagged. It's more efficient. Each frame is smaller, so it allows the device to send more frames per second.
+- There are 2 methods of configuring the native VLAN on a router:
+	- Use the command encapsulation dot1q vlan-id native on the router subinterface
+	   ![](method%201%20for%20native%20vlan%20on%20router.png)
+	- Configure the IP address for the native VLAN on the router’s physical interface (the encapsulation dot1q vlan-id command is not necessary)
+	   ![](method%202%20for%20native%20vlan%20on%20router.png)
+
+#### Layer 3 (Multilayer) Switches
+- A multilayer switch is capable of both switching AND routing.
+- It is ‘Layer 3 aware’.
+	- A regular layer two switch is not layer three aware.
+	- It doesn't think at all about IP addresses or anything above layer two.
+	- It only cares about layer two information like MAC addresses.
+- You can assign IP addresses to its interfaces, like a router.
+- You can create virtual interfaces for each VLAN, and assign IP addresses to those interfaces. 
+- You can configure routes on it, just like a router.
+- It can be used for inter-VLAN routing.
+	- So far we have looked at two methods of inter VLAN routing.
+	- The first one is using one connection for each VLAN between the router and switch.
+		- This works, but if you have many VLANs, you probably won't have enough interfaces on your router.
+	- The second method was router on a stick, which uses a single trunk connection which carries traffic from all VLANs between the switch and router for interview LAN routing.
+		- This is efficient in terms of the number of interfaces.
+		- Just one, but in a busy network.
+		- All of the traffic going to the router and back to the switch can cause network congestion.
+	- So in large networks, a multilayer switch is the preferred method of inter VLAN routing.	
+
+#### Inter-VLAN Routing via SVI
+- SVIs (Switch Virtual Interfaces) are the virtual interfaces you can assign IP addresses to in a multilayer switch.
+- Configure each PC to use the SVI (NOT the router) as their gateway address.
+- To send traffic to different subnets/VLANs, the PCs will send traffic to the switch, and the switch will route the traffic.
+
+layer 3 switch's SVI
+![](SVI.png)
+
+- Now let's take a look at the path that traffic between these two PC's takes this time.
+- The frame arrives at SW2, the destination is in the 192.168.1.0/26 subnet.
+- SW2 now has its own routing table. So it looks up the destination in the routing table and sees that the destination is connected to its VLAN 10 SVI. So the traffic is now routed to VLAN 10.
+	- If SW2 doesn't have the destination MAC address in its MAC address table, it will flood the frame to all VLAN 10 interfaces.
+- it forwards it to SW1 over its trunk interface tagged as VLAN 10, SW1, then forwards it to the destination.
+
+for traffic of outside network
+![](for%20traffic%20of%20outside%20network.png)
+
+- Now, what if the hosts want to reach destinations outside of the land?
+- For example, I've added a cloud connected to R1 to represent the internet.
+- Because SW2 is their default gateway. Any packets destined outside of their subnet will be sent to SW2.
+- But our previous ROAS configurations for the connection between SW2 and R1 will no longer work.
+- In addition to configuring virtual interfaces SVI on multilayer switches, we can also configure their physical interfaces to operate like a router interface rather than a switch port.
+- So we can assign the subnet, 192.168.1.192/30 for this point to point link between SW2 and R1 with SW2 interface.
+- Having an IP address of 192.168.1.193 and R1 g0/0 interface having an IP address of 192.168.1.194.
+- Then we configure a default route on SW2, pointing toward R1. So all traffic destined outside of the LAN will be sent to R1.
